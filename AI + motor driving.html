@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engines, Algorithms: Decoding Motor Sounds with AI</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8; /* Increases line spacing */
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        section p {
+            line-height: 1.8; /* Additional line spacing for paragraphs */
+            margin-bottom: 20px; /* Adds spacing between paragraphs */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Engines, Algorithms: Decoding Motor Sounds with AI</h1>
+        <p>Published on November 10, 2024</p>
+    </header>
+    <main>
+        <section>
+            <p>
+                Diving into my motor classification and anomaly detection project felt like stepping into a mechanical symphony,
+                 where every hum and whir told a story. Using an ESP32 as the conductor, paired with the MAX9814 microphone,
+                  I aimed to capture the subtle nuances of motor sounds to classify their states—full speed, half speed, and
+                   idle—and detect anomalies that could spell trouble. Think of it as a mechanic with superhuman hearing, armed
+                  with AI instead of a wrench.
+            </p>
+            <p>
+                The journey began with collecting raw audio samples. Picture me crouched next to a motor, recording its full-speed roar,
+                 its half-speed hum, and its idle purr, all with the precision of a sound engineer at a concert. The MAX9814, with its
+                  built-in auto-gain control, became my trusty sidekick, ensuring clean audio signals. These samples weren’t just
+                   recordings; they were data—golden nuggets to feed into a machine learning model.
+            </p>
+            <p>
+                Challenges revved up quickly. Storing the audio files as .wav formats on an SD card was no walk in the park, and let’s
+                 just say debugging the setup was like trying to find a needle in a haystack with a blindfold. But step by step, I
+                  pieced it together, turning sensor readings into valuable insights.
+
+                Training the machine learning model added another layer of intrigue. By leveraging tools
+                like Edge Impulse, I crafted a model that could classify motor states with impressive accuracy
+                and flag anomalies—those ominous signs of wear and tear—before they became costly repairs.
+                Each anomaly detected felt like catching a plot twist in a thriller before it unraveled.
+            </p>
+                <p>This project wasn’t just an exercise in engineering; it was a dance between hardware and software,
+                     creativity and precision. With every successful classification and every detected anomaly, I wasn’t
+                      just monitoring a motor—I was redefining what it means to listen to machines.</p>
+        
+            <h2>Repositories insights & Documentation</h2>
+            <ul>
+                <li><a href="https://github.com/Mbuch401" target="_blank">My GitHub Repository</a></li>
+                <li><a href="https://github.com/Electro707/Simple-LED-Matrix-Library"target="_blank">Simple LED Matrix Library</a></li>
+                <li><a href="https://www.instructables.com/48-X-8-Scrolling-LED-Matrix-Using-Arduino/"target="_blank">Where I got futher Insights</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mbuch. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
