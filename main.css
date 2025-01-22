@@ -4687,15 +4687,18 @@ input, select, textarea {
 		}
 
 	}
-	/* Ensure images are responsive */
+/* Ensure images are responsive */
 img {
     max-width: 100%; /* Prevents images from being wider than their container */
     height: auto;    /* Maintains the aspect ratio */
 }
 
-/* Optional: Center-align the project for smaller screens */
+/* Center-align the project text */
+.post {
+    text-align: center; /* Center-align text for all screen sizes */
+}
+
+/* Optional: Additional styles for smaller screens */
 @media screen and (max-width: 768px) {
-    .post {
-        text-align: center;
-    }
+    /* You can add more styles here if needed */
 }
